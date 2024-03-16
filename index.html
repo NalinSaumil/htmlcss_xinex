@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<title>Xinex - Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <img src="School_logo.png" alt="school logo" id="schoollogo">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Xinex High School</a>
+    <div class="w3-dropdown-hover">
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white w3-white">About</a>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4" id="dropdowncontent">
+      <a href="principal.html" class="w3-bar-item w3-button">Principal</a>
+    </div>
+  </div>
+    <a href="staff.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white">Staff</a>
+     <div class="w3-dropdown-hover">
+    <a href="courses.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white w3-white">Courses</a>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4" id="dropdowncontent">
+      <a href="gradpol.html" class="w3-bar-item w3-button">Grading Policy</a>
+    </div>
+  </div>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <div class="w3-dropdown-hover">
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-white">About</a>
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+    <a href="principal.html" class="w3-bar-item w3-button">Principal</a>
+    </div>
+  </div>
+    <a href="staff.html" class="w3-bar-item w3-button w3-padding-large">Staff</a>
+    <div class="w3-dropdown-hover">
+    <a href="courses.html" class="w3-bar-item w3-button w3-padding-large">Courses</a>
+     <div class="w3-dropdown-content w3-bar-block w3-card-4">
+    <a href="gradpol.html" class="w3-bar-item w3-button">Grading Policy</a>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-white w3-center" style="padding:128px 16px" id="header">
+  <h1 class="w3-margin w3-jumbo w3-text-white">Welcome</h1>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Hello</h1>
+      <h5 class="w3-padding-32">Hi and Welcome to the Xinex High School Website. Here you can introduce yourself to our school. The website tells you about the school’s welcoming culture and a goal of making intellectuals that will make the world  proud. The staff info can also be found so that you know the good hands your students will be in. We hope to make our students potential their reality. Go Xinex Stallions!!!!!</h5>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-handshake-o w3-padding-64 w3-text-black" id="img"></i>
+    </div>
+  </div>
+</div>
+<footer class="w3-container w3-center w3-opacity w3-card-4">  
+ <p>Powered by <a href="/Classwork/toc/toc.html" target="_blank">Saumil.Inc</a></p>
+</footer>
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

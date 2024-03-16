@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+#header{
+          background-image: url(Highschool.jpg);
+          background-position: right, left;
+}
+#schoollogo{
+          width: 58px;
+          float:left;
+}
+#img{
+          font-size: 120px;
+}
+#img1{
+          width: 100%;
+          margin-top: 40%;
+}
+#main{
+          width: 60%;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+}
+#main2{
+          width: 60%;
+          margin-left: 40%;
+          padding-top: 20%;
+          text-align: center;
+}
+#dropdowncontent{
+          margin-top: 51px
+}
+#card1{
+          float: left;
+          width: 29%;
+          margin: 2%;
+}
+#card2{
+          float: left;
+          width: 29%;
+          margin: 2%;
+}
+#card3{
+          float: left;
+          width: 29%;
+          margin: 2%;
+}
+.counsel{
+          width: 100%;
+}
+.symbol{
+          font-size: 150px;
+}
+h1{
+          font-family: 'Montserrat', sans-serif;
+}
+
+.adjust{
+          margin-top: 25px;
+}
+.adjust2{
+          margin-top: 280px;
+}
